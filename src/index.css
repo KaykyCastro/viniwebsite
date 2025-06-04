@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/src/assets/fonts/jetbrainsExtraBold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
