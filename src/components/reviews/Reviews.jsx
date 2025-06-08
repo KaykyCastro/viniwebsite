@@ -17,9 +17,11 @@ function pageSelector(navigatorPage){
         case 0:
             return (
                 <div class="
+                block
+                lg:flex
                 w-full
+                max-w-[1050px]
                 h-100
-                flex
                 gap-4
                 justify-center
                 items-center
@@ -32,9 +34,11 @@ function pageSelector(navigatorPage){
         case 1:
             return (
                 <div className="
+                block
+                lg:flex
                 w-full
+                max-w-[1050px]
                 h-100
-                flex
                 gap-4
                 justify-center
                 items-center
@@ -47,9 +51,11 @@ function pageSelector(navigatorPage){
         case 2:
             return (
                 <div class="
+                block
+                lg:flex
                 w-full
+                max-w-[1050px]
                 h-100
-                flex
                 gap-4
                 justify-center
                 items-center
@@ -67,7 +73,8 @@ export default function Reviews() {
 
     return (
         <div class="
-        p-8
+        h-160
+        lg:p-8
         justify-center
         items-center
         ">

@@ -2,6 +2,7 @@ export default function Process() {
     return (
         <div class="
         w-full
+        max-w-[1050px]
         h-[350px]
         lg:h-[660px]
         justify-center

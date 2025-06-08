@@ -4,41 +4,38 @@ import Header from "../header/Header.jsx";
 export default function Banner(){
     return (
         <div class='
-        w-full
-        h-[660px]
+        max-w-[1050px]
+        h-[700px]
         lg:h-[788px]
-        bg-cover
-        bg-center
-        bg-[url(/bg_banner.jpg)]
+        p-4
+        lg:p-1
         items-center
         justify-center
-        p-6
-        lg:p-10
         '>
 
             <Header/>
 
-            <div class='
+                <div class='
             flex items-center
             justify-center
-            mt-4
-            lg:mt-20
+            mt-20
+            lg:mt-30
             '>
 
-                <div class='
-                lg:flex
-                items-center
-                justify-center
-                '>
+                    <div class='
+                    max-w-[1050px]
+                    lg:flex
+                    items-center
+                    justify-center
+                    '>
 
-                    <img src='/logo.png'
-                    class='
-                    md:mr-12
-                    '
-                    />
+                        <img src='/logo.png'
+                             class='
+                        md:mr-12
+                        '/>
 
-                    <div class='text-[#000D0D]  w-full lg:w-170 pt-4'>
-                        <p class='
+                        <div class='text-[#000D0D]  w-full lg:w-170 pt-4'>
+                            <p class='
                         text-white
                          text-lg
                          lg:text-6xl
@@ -46,9 +43,9 @@ export default function Banner(){
                          font-bold
                          mb-6
                          w-full'>
-                            Uma equipe completa para o seu projeto
-                        </p>
-                        <h2 class='
+                                Uma equipe completa para o seu projeto
+                            </p>
+                            <h2 class='
                         hidden
                         md:block
                         text-white
@@ -57,9 +54,9 @@ export default function Banner(){
                          mb-10
                          text-left
                          text-justify'>
-                            Transforme sua ideia em um projeto digital com a Vini.dev. Soluções sob medida, design moderno, tecnologia de ponta e suporte especializado para acelerar o crescimento do seu negócio.
-                        </h2>
-                        <button class='
+                                Transforme sua ideia em um projeto digital com a Vini.dev. Soluções sob medida, design moderno, tecnologia de ponta e suporte especializado para acelerar o crescimento do seu negócio.
+                            </h2>
+                            <button class='
                         bg-[#03918C]
                         hover:bg-[#08E9E2]
                         hover:border-white
@@ -74,13 +71,13 @@ export default function Banner(){
                         font-semibold
                         cursor-pointer
                          '>
-                            Entrar em contato
-                        </button>
+                                Entrar em contato
+                            </button>
+
+                        </div>
 
                     </div>
-
                 </div>
-            </div>
 
         </div>
     )

@@ -4,7 +4,8 @@ export default function About() {
         w-full
         h-[620px]
         lg:h-[740px]
-        lg:p-10
+        p-0
+        lg:p-12
         bg-cover
         bg-center
         bg-[url(/bg_about.jpg)]
@@ -13,6 +14,7 @@ export default function About() {
         ">
 
             <div class="
+            w-full
             p-6
             lg:p-0
             lg:pl-24

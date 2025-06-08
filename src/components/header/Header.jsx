@@ -2,23 +2,26 @@
 export default function Header(){
     return (
         <div class="
-     flex
-     bg-[#000D0D]/75
-     backdrop-blur-lg
-     bg-opacity-50
-     border-3
-     border-[#08E9E2]
-     p-4
-     md:p-8
-     lg:p-8
-     w-80
-     md:w-full
-     h-16
-     gap-47
-     md:gap-100
-     lg:gap-147
-     rounded-xl
-     items-center">
+         fixed
+         flex
+         bg-[#000D0D]/75
+         backdrop-blur-sm
+         bg-opacity-50
+         border-3
+         border-[#08E9E2]
+         mt-4
+         p-4
+         md:p-8
+         lg:p-8
+         min-w-[200px]
+         max-w-[1050px]
+         w-[90%]
+         lg:w-full
+         h-16
+         rounded-xl
+         items-center
+         justify-between
+         ">
 
             <p class="
         text-[#08E9E2]
@@ -37,7 +40,7 @@ export default function Header(){
               md:hidden
               bg-[#000D0D]
               w-4
-              h 4
+              h-4
              ">
                 <div class="bg-white w-4 h-0.5 mb-1"/>
                 <div class="bg-white w-4 h-0.5 mb-1"/>

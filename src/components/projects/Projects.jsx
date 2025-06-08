@@ -7,8 +7,8 @@ export default function Projects() {
 
         <div class='
         w-full
-        h-240
-        lg:h-100
+        max-w-[1050px]
+        h-270
         lg:p-8
         lg:h-110
         justify-center

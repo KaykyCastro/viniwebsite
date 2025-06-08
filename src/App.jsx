@@ -7,6 +7,7 @@ import About from "./components/about/About.jsx";
 import Process from "./components/process/Process.jsx";
 import Video from "./components/video/Video.jsx";
 import Reviews from "./components/reviews/Reviews.jsx";
+import Footer from "./components/footer/Footer.jsx";
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
       <Process/>
       <Video/>
       <Reviews/>
+      <Footer/>
     </div>
   )
 }
