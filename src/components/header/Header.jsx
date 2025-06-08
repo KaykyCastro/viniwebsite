@@ -29,6 +29,7 @@ export default function Header(){
         font-semibold
         text-sm
         lg:text-lg
+
         ">
                 Vini.dev
             </p>

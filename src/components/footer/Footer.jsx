@@ -1,6 +1,6 @@
 import x from '../../../public/X.png'
 import facebook from '../../../public/Facebook.png'
-import youtube from '../../../public/Youtube.png'
+import youtube from '../../../public/YouTube.png'
 import linkedin from '../../../public/Linkedin.png'
 import instagram from '../../../public/Instagram.png'
 import logo from '../../../public/logo.png'
