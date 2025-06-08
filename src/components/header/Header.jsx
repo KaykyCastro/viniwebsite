@@ -29,8 +29,7 @@ export default function Header(){
         font-semibold
         text-sm
         lg:text-lg
-        ml-2
-        lg:ml-16">
+        ">
                 Vini.dev
             </p>
 
@@ -52,7 +51,7 @@ export default function Header(){
          md:flex
          flex
          items-center
-         mr-16">
+         ">
 
                 <div class="
              flex
