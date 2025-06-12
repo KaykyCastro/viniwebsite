@@ -9,14 +9,14 @@ import equipe from '../../../public/equipe.png'
 export default function Footer() {
     return (
         <div class="
-        hidden
         lg:block
         bg-white
-        relative
         w-full
-        h-[700px]
+        h-[800px]
+        lg:h-[700px]
         lg:h-[500px]
         p-10
+        lg:p-10
         items-center
         justify-center
         ">
@@ -24,12 +24,13 @@ export default function Footer() {
             block
             lg:flex
             lg:gap-28
-            ml-26
+            ml-0
+            lg:ml-26
             font-mono
             font-bold
             ">
                 <div class="
-                w-[120px]
+                w-[300px]
                 lg:w-[400px]
                 items-center
                 justify-between">
@@ -104,7 +105,8 @@ export default function Footer() {
                 mt-4
                 ">
                     <div class="
-                    w-[540px]
+                    w-[300px]
+                    lg:w-[540px]
                     flex
                     justify-between
                     ">
@@ -130,7 +132,10 @@ export default function Footer() {
 
                         <p class="mt-8">Links Úteis: </p>
 
-                    <div className="flex justify-between">
+                    <div className="
+                    block
+                    lg:flex
+                    justify-between">
                         <div className="font-medium mt-2">
                             <h1 className="underline cursor-pointer">Direitos e privacidade</h1>
                             <h1 className="underline cursor-pointer">Projetos</h1>
@@ -145,6 +150,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <img src={equipe} class="
+                    hidden
                     w-[540px]
                     mt-10
                     "/>
