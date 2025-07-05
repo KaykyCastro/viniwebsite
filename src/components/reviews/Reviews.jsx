@@ -1,7 +1,7 @@
 import ContainerReview from './Container.jsx'
-import p1 from '../../../public/peoples/p1.png'
-import p2 from '../../../public/peoples/p2.png'
-import p3 from '../../../public/peoples/p3.png'
+import p1 from '../../assets/peoples/p1.png'
+import p2 from '../../assets/peoples/p2.png'
+import p3 from '../../assets/peoples/p3.png'
 import {useState} from "react";
 
 const peoples = [

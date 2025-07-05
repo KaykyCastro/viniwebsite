@@ -1,5 +1,10 @@
+import {Link} from "react-scroll";
+import {Link as LinkToRout} from "react-router-dom";
+import { User } from "@phosphor-icons/react";
+import {useState} from "react";
 
-export default function Header(){
+export default function Header(props){
+
     return (
         <div class="
          fixed
@@ -54,20 +59,23 @@ export default function Header(){
          items-center
          ">
 
-                <div class="
+                <Link to="projetcs" smooth={true} duration={1000}>
+                    <div className="
              flex
              items-center
              ">
-                    <p class="
+                        <p className="
                  text-white
                  hover:text-[#08E9E2]
                  font-mono
                  font-medium
                  m-2
                  cursor-pointer">
-                        Nossos projetos
-                    </p>
-                </div>
+                            Nossos projetos
+                        </p>
+                    </div>
+                </Link>
+
 
                 <div class="
              flex
@@ -79,6 +87,8 @@ export default function Header(){
                  h-5
                  justify-center
                  items-center"/>
+
+                 <Link to="about" smooth={true} duration={1000}>
 
                     <p class="
                  text-white
@@ -89,7 +99,7 @@ export default function Header(){
                  cursor-pointer">
                         Sobre nós
                     </p>
-
+                 </Link>
                 </div>
 
                 <div class="
@@ -103,6 +113,7 @@ export default function Header(){
                  justify-center
                  items-center"/>
 
+                <Link to="process" smooth={true} duration={1000}>
                     <p class="
                  text-white
                  hover:text-[#08E9E2]
@@ -112,8 +123,22 @@ export default function Header(){
                  cursor-pointer">
                         Nossos processos
                     </p>
-
+                </Link>
                 </div>
+
+                <div class="">
+                </div>
+
+                <LinkToRout to="Crud">
+                    <div className="flex gap-2 ml-2">
+                        <div className="border-1 border-[#08E9E2] rounded-md p-1">
+                            <User color="#08E9E2" weight="fill" size={20}/>
+                        </div>
+
+                        {props.user}
+                    </div>
+                </LinkToRout>
+
             </div>
         </div>
     )

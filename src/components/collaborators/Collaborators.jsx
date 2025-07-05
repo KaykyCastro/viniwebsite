@@ -20,11 +20,11 @@ export default function Collaborators() {
             justify-center
             items-center
             ">
-                <img class="size-6 lg:w-auto lg:h-auto" src="/collaborators/voltz.png" alt="Voltz" />
-                <img class="w-18 h-4 lg:w-auto lg:h-auto"  src="/collaborators/kanom.png" alt="Voltz" />
-                <img class="w-12 h-4 lg:w-auto lg:h-auto" src="/collaborators/Iellou.png" alt="Voltz" />
-                <img class="w-12 h-3 lg:w-auto lg:h-auto" src="/collaborators/lazarus.png" alt="Voltz" />
-                <img class="w-8 h-4  lg:w-auto lg:h-auto" src="/collaborators/du.png" alt="Voltz" />
+                <img class="size-6 lg:w-auto lg:h-auto" src="/src/assets/collaborators/voltz.png" alt="Voltz" />
+                <img class="w-18 h-4 lg:w-auto lg:h-auto" src="/src/assets/collaborators/kanom.png" alt="Voltz" />
+                <img class="w-12 h-4 lg:w-auto lg:h-auto" src="/src/assets/collaborators/Iellou.png" alt="Voltz" />
+                <img class="w-12 h-3 lg:w-auto lg:h-auto" src="/src/assets/collaborators/lazarus.png" alt="Voltz" />
+                <img class="w-8 h-4  lg:w-auto lg:h-auto" src="/src/assets/collaborators/du.png" alt="Voltz" />
             </div>
 
             <p class="

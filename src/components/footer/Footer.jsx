@@ -1,10 +1,10 @@
-import x from '../../../public/X.png'
-import facebook from '../../../public/Facebook.png'
-import youtube from '../../../public/YouTube.png'
-import linkedin from '../../../public/LinkedIn.png'
-import instagram from '../../../public/Instagram.png'
-import logo from '../../../public/logo.png'
-import equipe from '../../../public/equipe.png'
+import x from '../../assets/X.png'
+import facebook from '../../assets/Facebook.png'
+import youtube from '../../assets/YouTube.png'
+import linkedin from '../../assets/LinkedIn.png'
+import instagram from '../../assets/Instagram.png'
+import logo from '../../assets/logo.png'
+import equipe from '../../assets/equipe.png'
 
 export default function Footer() {
     return (

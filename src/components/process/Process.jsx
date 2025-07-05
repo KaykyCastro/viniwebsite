@@ -31,7 +31,7 @@ export default function Process() {
                     NOSSOS PROCESSOS
                 </p>
 
-                <img src="/process.png"
+                <img src="/src/assets/process.png"
                 class="
                 justify-center
                 items-center

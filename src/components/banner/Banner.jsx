@@ -1,7 +1,7 @@
 import Header from "../header/Header.jsx";
 
 
-export default function Banner(){
+export default function Banner(props){
     return (
         <div class='
         max-w-[1050px]
@@ -13,7 +13,7 @@ export default function Banner(){
         justify-center
         '>
 
-            <Header/>
+            <Header user={props.user}/>
 
                 <div class='
             flex items-center
@@ -29,12 +29,12 @@ export default function Banner(){
                     justify-center
                     '>
 
-                        <img src='/logo.png'
+                        <img src='/src/assets/logo.png'
                              class='
                         md:mr-12
                         '/>
 
-                        <div class='text-[#000D0D]  w-full lg:w-170 pt-4'>
+                        <div class='w-full lg:w-170 pt-4'>
                             <p class='
                         text-white
                          text-lg
