@@ -1,3 +1,9 @@
+import voltz from "../../../public/collaborators/voltz.png"
+import kanom from "../../../public/collaborators/kanom.png"
+import iellou from "../../../public/collaborators/Iellou.png"
+import lazarus from "../../../public/collaborators/lazarus.png"
+import du from "../../../public/collaborators/du.png"
+
 export default function Collaborators() {
     return (
         <div class="
@@ -20,11 +26,11 @@ export default function Collaborators() {
             justify-center
             items-center
             ">
-                <img class="size-6 lg:w-auto lg:h-auto" src="/src/assets/collaborators/voltz.png" alt="Voltz" />
-                <img class="w-18 h-4 lg:w-auto lg:h-auto" src="/src/assets/collaborators/kanom.png" alt="Voltz" />
-                <img class="w-12 h-4 lg:w-auto lg:h-auto" src="/src/assets/collaborators/Iellou.png" alt="Voltz" />
-                <img class="w-12 h-3 lg:w-auto lg:h-auto" src="/src/assets/collaborators/lazarus.png" alt="Voltz" />
-                <img class="w-8 h-4  lg:w-auto lg:h-auto" src="/src/assets/collaborators/du.png" alt="Voltz" />
+                <img class="size-6 lg:w-auto lg:h-auto" src={voltz} alt="Voltz" />
+                <img class="w-18 h-4 lg:w-auto lg:h-auto" src={kanom} alt="Voltz" />
+                <img class="w-12 h-4 lg:w-auto lg:h-auto" src={iellou} alt="Voltz" />
+                <img class="w-12 h-3 lg:w-auto lg:h-auto" src={lazarus} alt="Voltz" />
+                <img class="w-8 h-4  lg:w-auto lg:h-auto" src={du} alt="Voltz" />
             </div>
 
             <p class="

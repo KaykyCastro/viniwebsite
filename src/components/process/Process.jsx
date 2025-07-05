@@ -1,6 +1,6 @@
 export default function Process() {
     return (
-        <div class="
+        <div className="
         w-full
         max-w-[1050px]
         h-[350px]
@@ -8,7 +8,7 @@ export default function Process() {
         justify-center
         items-center
         ">
-            <div class="
+            <div className="
 
             pt-3
             lg:pl-30
@@ -17,7 +17,7 @@ export default function Process() {
             justify-center
             items-center
             ">
-                <p class="
+                <p className="
             text-white
             text-2xl
             md:text-4xl
@@ -31,8 +31,8 @@ export default function Process() {
                     NOSSOS PROCESSOS
                 </p>
 
-                <img src="/src/assets/process.png"
-                class="
+                <img src="../../../public/process.png"
+                className="
                 justify-center
                 items-center
                 w-90

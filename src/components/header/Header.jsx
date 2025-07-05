@@ -6,7 +6,7 @@ import {useState} from "react";
 export default function Header(props){
 
     return (
-        <div class="
+        <div className="
          fixed
          flex
          bg-[#000D0D]/75
@@ -28,7 +28,7 @@ export default function Header(props){
          justify-between
          ">
 
-            <p class="
+            <p className="
         text-[#08E9E2]
         font-mono
         font-semibold
@@ -39,7 +39,7 @@ export default function Header(props){
                 Vini.dev
             </p>
 
-            <div class="
+            <div className="
               block
               lg:hidden
               md:hidden
@@ -47,12 +47,12 @@ export default function Header(props){
               w-4
               h-4
              ">
-                <div class="bg-white w-4 h-0.5 mb-1"/>
-                <div class="bg-white w-4 h-0.5 mb-1"/>
-                <div class='bg-white w-4 h-0.5 '/>
+                <div className="bg-white w-4 h-0.5 mb-1"/>
+                <div className="bg-white w-4 h-0.5 mb-1"/>
+                <div className='bg-white w-4 h-0.5 '/>
             </div>
 
-            <div class="
+            <div className="
          hidden
          md:flex
          flex
@@ -77,11 +77,11 @@ export default function Header(props){
                 </Link>
 
 
-                <div class="
+                <div className="
              flex
              items-center">
 
-                 <span class="
+                 <span className="
                  border-[#08E9E2]
                  border-l-3
                  h-5
@@ -90,7 +90,7 @@ export default function Header(props){
 
                  <Link to="about" smooth={true} duration={1000}>
 
-                    <p class="
+                    <p className="
                  text-white
                  hover:text-[#08E9E2]
                  font-mono
@@ -102,11 +102,11 @@ export default function Header(props){
                  </Link>
                 </div>
 
-                <div class="
+                <div className="
              flex
              items-center">
 
-                 <span class="
+                 <span className="
                  border-[#08E9E2]
                  border-l-3
                  h-5

@@ -1,14 +1,14 @@
-import x from '../../assets/X.png'
-import facebook from '../../assets/Facebook.png'
-import youtube from '../../assets/YouTube.png'
-import linkedin from '../../assets/LinkedIn.png'
-import instagram from '../../assets/Instagram.png'
-import logo from '../../assets/logo.png'
-import equipe from '../../assets/equipe.png'
+import x from '../../../public/X.png'
+import facebook from '../../../public/Facebook.png'
+import youtube from '../../../public/YouTube.png'
+import linkedin from '../../../public/LinkedIn.png'
+import instagram from '../../../public/Instagram.png'
+import logo from '../../../public/logo.png'
+import equipe from '../../../public/equipe.png'
 
 export default function Footer() {
     return (
-        <div class="
+        <div className="
         lg:block
         bg-white
         w-full
@@ -20,7 +20,7 @@ export default function Footer() {
         items-center
         justify-center
         ">
-            <div class="
+            <div className="
             block
             lg:flex
             lg:gap-28
@@ -29,20 +29,20 @@ export default function Footer() {
             font-mono
             font-bold
             ">
-                <div class="
+                <div className="
                 w-[300px]
                 lg:w-[400px]
                 items-center
                 justify-between">
 
-                    <p class="
+                    <p className="
                     text-lg
                     lg:text-6xl
                     ">
                         Fale conosco
                     </p>
 
-                    <div class="
+                    <div className="
                     mt-1
                     mb-4
                     text-sm
@@ -52,7 +52,7 @@ export default function Footer() {
                     </div>
 
 
-                    <input placeholder="Seu email: " class="
+                    <input placeholder="Seu email: " className="
                     bg-gray-100
                     w-full
                     h-4
@@ -68,7 +68,7 @@ export default function Footer() {
                     focus:border-[#08E9E2]
                     "/>
 
-                    <textarea placeholder="Sua mensagem: " class="
+                    <textarea placeholder="Sua mensagem: " className="
                     bg-gray-100
                     w-full
                     h-40
@@ -83,7 +83,7 @@ export default function Footer() {
                     focus:border-[#08E9E2]
                     "></textarea>
 
-                    <button class="
+                    <button className="
                     bg-[#03918C]
                     hover:bg-[#08E9E2]
                     hover:border-white
@@ -101,16 +101,16 @@ export default function Footer() {
 
                 </div>
 
-                <div class="
+                <div className="
                 mt-4
                 ">
-                    <div class="
+                    <div className="
                     w-[300px]
                     lg:w-[540px]
                     flex
                     justify-between
                     ">
-                        <div class="">
+                        <div className="">
                                 <p className="
                                 text-lg
                                 lg:text-4xl
@@ -118,7 +118,7 @@ export default function Footer() {
                                 ">
                                 Redes Sociais
                                 </p>
-                            <div class="flex gap-2">
+                            <div className="flex gap-2">
                                 <img src={x}/>
                                 <img src={linkedin}/>
                                 <img src={instagram}/>
@@ -149,8 +149,7 @@ export default function Footer() {
                             <h1 className="underline cursor-pointer">Cookies</h1>
                         </div>
                     </div>
-                    <img src={equipe} class="
-                    hidden
+                    <img src={equipe} className="
                     w-[540px]
                     mt-10
                     "/>

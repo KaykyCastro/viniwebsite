@@ -1,4 +1,5 @@
 import Header from "../header/Header.jsx";
+import Logo from "../../../public/logo.png"
 
 
 export default function Banner(props){
@@ -29,7 +30,7 @@ export default function Banner(props){
                     justify-center
                     '>
 
-                        <img src='/src/assets/logo.png'
+                        <img src={Logo}
                              class='
                         md:mr-12
                         '/>

@@ -58,7 +58,7 @@ export default function Login(){
                     focus:border-[#08E9E2]
                     " onChange={e => setEmail(e.target.value)}/>
 
-                    <input placeholder="Sua senha: " class="
+                    <input placeholder="Sua senha: " className="
                     bg-gray-100
                     w-full
                     h-4

@@ -1,7 +1,7 @@
 import ContainerReview from './Container.jsx'
-import p1 from '../../assets/peoples/p1.png'
-import p2 from '../../assets/peoples/p2.png'
-import p3 from '../../assets/peoples/p3.png'
+import p1 from '../../../public/peoples/p1.png'
+import p2 from '../../../public/peoples/p2.png'
+import p3 from '../../../public/peoples/p3.png'
 import {useState} from "react";
 
 const peoples = [
@@ -16,7 +16,7 @@ function pageSelector(navigatorPage){
     switch(navigatorPage){
         case 0:
             return (
-                <div class="
+                <div className="
                 block
                 lg:flex
                 w-full
@@ -50,7 +50,7 @@ function pageSelector(navigatorPage){
             )
         case 2:
             return (
-                <div class="
+                <div className="
                 block
                 lg:flex
                 w-full
@@ -72,13 +72,13 @@ export default function Reviews() {
     const [navigatorPage, setNavigatorPage] = useState(0);
 
     return (
-        <div class="
+        <div className="
         h-160
         lg:p-8
         justify-center
         items-center
         ">
-            <p class="
+            <p className="
             text-white
             text-2xl
             md:text-4xl
@@ -94,7 +94,7 @@ export default function Reviews() {
 
             {pageSelector(navigatorPage)}
 
-            <div class="
+            <div className="
             flex
             gap-1
             justify-center

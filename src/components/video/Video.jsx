@@ -1,13 +1,13 @@
 
 export default function Video () {
     return (
-        <div class="
+        <div className="
         w-full
         h-[200px]
         lg:h-[700px]
         bg-cover
         bg-center
-        bg-[url(src/assets//video.jpg)]
+        bg-[url(../../../public/video.jpg)]
         items-center
         justify-center
         p-6

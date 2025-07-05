@@ -32,9 +32,9 @@ export default function Projects() {
             justify-center
             items-center
             ">
-                <ProjectCardTamplate src="src/assets/projects/versalite.png" />
-                <ProjectCardTamplate src="src/assets/projects/iellou.png" />
-                <ProjectCardTamplate src="src/assets/projects/versalite.png" />
+                <ProjectCardTamplate src="../../../public/projects/versalite.png" />
+                <ProjectCardTamplate src="../../../public/projects/iellou.png" />
+                <ProjectCardTamplate src="../../../public/projects/versalite.png" />
             </div>
 
 
