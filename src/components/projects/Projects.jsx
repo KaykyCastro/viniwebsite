@@ -1,4 +1,6 @@
 import ProjectCardTamplate from "./ProjectCardTamplate.jsx";
+import versalit from '../../../public/projects/versalite.png'
+import iellou from '../../../public/projects/iellou.png';
 
 export default function Projects() {
     return (
@@ -32,9 +34,9 @@ export default function Projects() {
             justify-center
             items-center
             ">
-                <ProjectCardTamplate src="../../../public/projects/versalite.png" />
-                <ProjectCardTamplate src="../../../public/projects/iellou.png" />
-                <ProjectCardTamplate src="../../../public/projects/versalite.png" />
+                <ProjectCardTamplate src={versalit} />
+                <ProjectCardTamplate src={iellou} />
+                <ProjectCardTamplate src={versalit} />
             </div>
 
 

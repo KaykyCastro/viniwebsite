@@ -1,3 +1,5 @@
+import process from '../../../public/process.png';
+
 export default function Process() {
     return (
         <div className="
@@ -31,7 +33,7 @@ export default function Process() {
                     NOSSOS PROCESSOS
                 </p>
 
-                <img src="../../../public/process.png"
+                <img src={process}
                 className="
                 justify-center
                 items-center
