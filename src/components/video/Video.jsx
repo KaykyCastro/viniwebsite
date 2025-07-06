@@ -7,7 +7,7 @@ export default function Video () {
         lg:h-[700px]
         bg-cover
         bg-center
-        bg-[url(../../../public/video.jpg)]
+        bg-[url(../../../video.jpg)]
         items-center
         justify-center
         p-6

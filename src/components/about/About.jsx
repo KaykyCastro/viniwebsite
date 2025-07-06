@@ -8,7 +8,7 @@ export default function About() {
         lg:p-12
         bg-cover
         bg-center
-        bg-[url(../../../public/bg_about.jpg)]
+        bg-[url(../../../bg_about.jpg)]
         items-center
         justify-center
         ">
